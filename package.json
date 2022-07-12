@@ -1,0 +1,23 @@
+{
+  "name": "private-access-token-demo",
+  "version": "0.0.1",
+  "description": "Demo server for testing the Private Access Token feature introduced by Apple at WWDC 2022",
+  "engines": {
+    "node": ">=12.19.0"
+  },
+  "author": {
+    "name" : "Matthias Keller",
+    "url" : "https://m-keller.com/"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  }
+}
